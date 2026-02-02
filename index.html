@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    Welcome Admin
+    <button id="toggleBtn">Toggle Mode</button>
+</header>
+
+<div class="container">
+    <div class="sidebar card">Navigation</div>
+
+    <div class="cards">
+        <div class="card" onclick="btnClick('Analytics')">Analytics</div>
+        <div class="card" onclick="btnClick('Users')">Users</div>
+        <div class="card" onclick="btnClick('Orders')">Orders</div>
+        <div class="card" onclick="btnClick('Settings')">Settings</div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
